@@ -1,0 +1,36 @@
+_id: req_6b4f8d1c27f54946931aedc6eab29dc6
+type: Request
+parentId: fld_d5d153ecfec1489b991a8fe93f1b4f15
+modified: 1660914506647
+created: 1659712454010
+url: "{{ _.url }}/v2/customer"
+name: get
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_74dd570b47b24a5e82d77be02021d3b1
+    name: teste
+    value: AAAAAAAA
+    description: ""
+    disabled: true
+  - id: pair_d95056bb3cf443caba1fa4dc0fafe371
+    name: page
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_256702b254d94f0a98214cc4cfe694a7
+    name: limit
+    value: "50"
+    description: ""
+    disabled: true
+headers: []
+authentication: {}
+metaSortKey: -1659712454010
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

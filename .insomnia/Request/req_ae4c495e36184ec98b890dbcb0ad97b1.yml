@@ -1,0 +1,21 @@
+_id: req_ae4c495e36184ec98b890dbcb0ad97b1
+type: Request
+parentId: fld_d5d153ecfec1489b991a8fe93f1b4f15
+modified: 1660914632592
+created: 1659712495900
+url: "{{ _.url }}/v2/customer/20"
+name: getById
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1659387699063.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,26 @@
+_id: req_4fedb6411040420ba33f46b6a79098f1
+type: Request
+parentId: fld_d5d153ecfec1489b991a8fe93f1b4f15
+modified: 1660914641257
+created: 1659712512995
+url: "{{ _.url }}/v2/customer"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5753e701f0674320aa501960ca4f48fe
+authentication: {}
+metaSortKey: -1659225321590.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

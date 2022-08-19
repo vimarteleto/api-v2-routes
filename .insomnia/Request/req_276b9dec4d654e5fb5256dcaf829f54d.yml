@@ -1,0 +1,26 @@
+_id: req_276b9dec4d654e5fb5256dcaf829f54d
+type: Request
+parentId: fld_d5d153ecfec1489b991a8fe93f1b4f15
+modified: 1660914658321
+created: 1660738057669
+url: "{{ _.url }}/v2/customer"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_44352dbd6ed74c9cb0cfbcb10be0ffb8
+authentication: {}
+metaSortKey: -1659123835669.4688
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
