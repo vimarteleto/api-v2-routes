@@ -1,0 +1,41 @@
+_id: req_8545ab5a6e324c1eaf75c09a2730d62c
+type: Request
+parentId: fld_c4b4b145db7d49779097dfcb731e1e51
+modified: 1660916007157
+created: 1660916007157
+url: http://localhost:8000/v2/progressive_discount/1
+name: ValidateProgressiveDiscount
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"order_price": 106.50,
+    	"products": [
+    		{
+    			"product_id": 85,
+    			"quantity": 2
+    		},
+    		{
+    			"product_id": 86,
+    			"quantity": 1
+    		}
+    	],
+    	"payment_method_code" : "pagarme_pix",
+    	"order_type": "retail"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ec5ee76e48a845dfa500de86365bbd00
+authentication: {}
+metaSortKey: -1660826401053
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

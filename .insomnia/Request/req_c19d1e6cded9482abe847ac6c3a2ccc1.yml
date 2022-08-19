@@ -1,0 +1,30 @@
+_id: req_c19d1e6cded9482abe847ac6c3a2ccc1
+type: Request
+parentId: fld_ae134657f19342749086c0f476dab3b2
+modified: 1660915997726
+created: 1660915997726
+url: http://localhost:8000/v2/cart/123
+name: updateCart
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"key": "YToyOntzOjEwOiJwcm9kdWN0X2lkIjtpOjIzO3M6Njoib3B0aW9uIjthOjE6e2k6NTA7aTo5Njt9fQ==",
+    	"quantity": 2
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_47fdca3104df48f1945caa35c7253ce6
+authentication: {}
+metaSortKey: -1660703193909.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

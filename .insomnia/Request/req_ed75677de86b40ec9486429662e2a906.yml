@@ -1,0 +1,37 @@
+_id: req_ed75677de86b40ec9486429662e2a906
+type: Request
+parentId: fld_c4b4b145db7d49779097dfcb731e1e51
+modified: 1660916007154
+created: 1660916007154
+url: http://localhost:8000/v2/progressive_discount/3
+name: updateProgressiveDiscount
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"value_minimum": "150",
+    	"value_discount": "10",
+    	"payment_methods": [
+    				"1",
+    				"2"
+    	],
+    	"retail_status": "0",
+    	"wholesale_status": "1",
+    	"products_selected": ["86", "85"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e81a321f228b4e7bb3fa95c655b70687
+authentication: {}
+metaSortKey: -1660826401028
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

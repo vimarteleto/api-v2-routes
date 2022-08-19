@@ -1,0 +1,26 @@
+_id: req_a1301861780844f98f3ee3f134d80b63
+type: Request
+parentId: fld_ae134657f19342749086c0f476dab3b2
+modified: 1660915997719
+created: 1660915997719
+url: http://localhost:8000/v2/cart/recoveryCart
+name: recoveryCart
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_62fa4de3af0746e9a1aa408c5f41cecd
+authentication: {}
+metaSortKey: -1660739461258
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
