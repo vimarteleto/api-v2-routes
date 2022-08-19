@@ -1,9 +1,9 @@
 _id: req_ed75677de86b40ec9486429662e2a906
 type: Request
 parentId: fld_c4b4b145db7d49779097dfcb731e1e51
-modified: 1660916007154
+modified: 1660927492300
 created: 1660916007154
-url: http://localhost:8000/v2/progressive_discount/3
+url: http://localhost:8000/v2/progressive_discount/2
 name: updateProgressiveDiscount
 description: ""
 method: PUT
@@ -14,12 +14,10 @@ body:
     	"value_minimum": "150",
     	"value_discount": "10",
     	"payment_methods": [
-    				"1",
-    				"2"
+    				"pagarme_pix"
     	],
     	"retail_status": "0",
-    	"wholesale_status": "1",
-    	"products_selected": ["86", "85"]
+    	"wholesale_status": "1"
     }
 parameters: []
 headers:

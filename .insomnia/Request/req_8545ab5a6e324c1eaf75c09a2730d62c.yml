@@ -1,7 +1,7 @@
 _id: req_8545ab5a6e324c1eaf75c09a2730d62c
 type: Request
 parentId: fld_c4b4b145db7d49779097dfcb731e1e51
-modified: 1660916007157
+modified: 1660928925830
 created: 1660916007157
 url: http://localhost:8000/v2/progressive_discount/1
 name: ValidateProgressiveDiscount
@@ -23,7 +23,7 @@ body:
     		}
     	],
     	"payment_method_code" : "pagarme_pix",
-    	"order_type": "retail"
+    	"order_type": "wholesale"
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_766a2d0d723b47eeafee23e35e8f401c
 type: Request
 parentId: fld_c4b4b145db7d49779097dfcb731e1e51
-modified: 1660916007150
+modified: 1660927626801
 created: 1660916007150
 url: http://localhost:8000/v2/progressive_discount/
 name: createProgressiveDiscount
@@ -13,10 +13,6 @@ body:
     {
     	"value_minimum": "100",
     	"value_discount": "10",
-    	"payment_methods": [
-    				"1",
-    				"2"
-    	],
     	"retail_status": "0",
     	"wholesale_status": "1",
     	"products_selected": ["86", "85"]

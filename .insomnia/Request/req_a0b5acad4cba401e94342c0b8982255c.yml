@@ -1,9 +1,9 @@
 _id: req_a0b5acad4cba401e94342c0b8982255c
 type: Request
 parentId: fld_c4b4b145db7d49779097dfcb731e1e51
-modified: 1660916007142
+modified: 1660927448469
 created: 1660916007142
-url: http://localhost:8000/v2/progressive_discount/1
+url: http://localhost:8000/v2/progressive_discount/2
 name: getProgressiveDiscountById
 description: ""
 method: GET
