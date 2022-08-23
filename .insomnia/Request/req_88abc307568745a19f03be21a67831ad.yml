@@ -1,9 +1,9 @@
-_id: req_414e4618f31f45c48eb93d655bd0c5b8
+_id: req_88abc307568745a19f03be21a67831ad
 type: Request
-parentId: fld_ae134657f19342749086c0f476dab3b2
-modified: 1661264754021
-created: 1660915997723
-url: http://localhost:8000/v2/cart
+parentId: fld_87fa8e243f584bcc80de543d8faddd64
+modified: 1661263466534
+created: 1661263298823
+url: http://localhost:8000/v2/filter
 name: get
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1660739520373
+metaSortKey: -1661263298823
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

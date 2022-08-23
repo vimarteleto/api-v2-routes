@@ -1,10 +1,10 @@
 _id: req_c19d1e6cded9482abe847ac6c3a2ccc1
 type: Request
 parentId: fld_ae134657f19342749086c0f476dab3b2
-modified: 1660915997726
+modified: 1661264838692
 created: 1660915997726
 url: http://localhost:8000/v2/cart/123
-name: updateCart
+name: update
 description: ""
 method: PUT
 body:
