@@ -1,10 +1,10 @@
 _id: req_766a2d0d723b47eeafee23e35e8f401c
 type: Request
 parentId: fld_c4b4b145db7d49779097dfcb731e1e51
-modified: 1661256844149
+modified: 1661263170225
 created: 1660916007150
 url: http://localhost:8000/v2/progressive_discount/
-name: createProgressiveDiscount
+name: create
 description: ""
 method: POST
 body:

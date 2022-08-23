@@ -1,7 +1,7 @@
 _id: req_8bed4af565f14807ae566925ed6e9573
 type: Request
 parentId: fld_c5e346b4e40c4edba49957a70029c763
-modified: 1661256663066
+modified: 1661263226576
 created: 1661256655296
 url: http://localhost:8000/v2/coupon/22
 name: getById
@@ -21,7 +21,7 @@ headers:
   - name: Cookie
     value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
 authentication: {}
-metaSortKey: -1660933948888.25
+metaSortKey: -1661256592044
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

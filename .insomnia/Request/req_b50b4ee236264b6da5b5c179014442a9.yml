@@ -1,9 +1,9 @@
-_id: req_a0b5acad4cba401e94342c0b8982255c
+_id: req_b50b4ee236264b6da5b5c179014442a9
 type: Request
-parentId: fld_c4b4b145db7d49779097dfcb731e1e51
-modified: 1661263161536
-created: 1660916007142
-url: http://localhost:8000/v2/progressive_discount/2
+parentId: fld_8d35d3ef77e247c2b58486390e68ca46
+modified: 1661259144120
+created: 1661180245150
+url: http://localhost:8000/v2/manufacturer/3
 name: getById
 description: ""
 method: GET
@@ -11,7 +11,7 @@ body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1660826401128
+metaSortKey: -1661179343989
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

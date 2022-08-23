@@ -1,10 +1,10 @@
 _id: req_ed75677de86b40ec9486429662e2a906
 type: Request
 parentId: fld_c4b4b145db7d49779097dfcb731e1e51
-modified: 1660927492300
+modified: 1661263190991
 created: 1660916007154
 url: http://localhost:8000/v2/progressive_discount/2
-name: updateProgressiveDiscount
+name: update
 description: ""
 method: PUT
 body:

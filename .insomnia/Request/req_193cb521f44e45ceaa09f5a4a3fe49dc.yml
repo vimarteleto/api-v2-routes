@@ -1,10 +1,10 @@
 _id: req_193cb521f44e45ceaa09f5a4a3fe49dc
 type: Request
 parentId: fld_c4b4b145db7d49779097dfcb731e1e51
-modified: 1660916007155
+modified: 1661263197033
 created: 1660916007155
 url: http://localhost:8000/v2/progressive_discount/3
-name: deleteProgressiveDiscount
+name: delete
 description: ""
 method: DELETE
 body: {}

@@ -1,7 +1,7 @@
 _id: req_0d25ac4f7e9749f790318f344fe4dd47
 type: Request
 parentId: fld_c5e346b4e40c4edba49957a70029c763
-modified: 1661256721017
+modified: 1661263235262
 created: 1661256718988
 url: http://localhost:8000/v2/coupon/validate/20
 name: validate
@@ -21,7 +21,7 @@ headers:
   - name: Cookie
     value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
 authentication: {}
-metaSortKey: -1660880175033.125
+metaSortKey: -1661054940062.2812
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

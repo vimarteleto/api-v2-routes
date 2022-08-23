@@ -1,0 +1,35 @@
+_id: req_945b098c4c824eb88f02af80b6b9a8a2
+type: Request
+parentId: fld_8d35d3ef77e247c2b58486390e68ca46
+modified: 1661262251318
+created: 1661261468212
+url: http://localhost:8000/v2/manufacturer/6
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "nome teste editar",
+    	"description": "<p> DESCRIÇÃO EDITADA</p>",
+    	"description_position": 0,
+    	"manufacturer_index": 1,
+    	"meta_title": "meta nome teste de edição",
+    	"meta_description": "meta DESCRIÇÃO",
+    	"image" : "https://pbs.twimg.com/profile_images/1215734764323377152/-hmYx6ee_400x400.jpg"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_88e9cd31806144ef8d0675c55457b2e0
+authentication: {}
+metaSortKey: -1661179343889
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

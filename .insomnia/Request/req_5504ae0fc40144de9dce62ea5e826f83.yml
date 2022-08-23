@@ -1,0 +1,35 @@
+_id: req_5504ae0fc40144de9dce62ea5e826f83
+type: Request
+parentId: fld_8d35d3ef77e247c2b58486390e68ca46
+modified: 1661261896586
+created: 1661189073821
+url: http://localhost:8000/v2/manufacturer
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "nome teste",
+    	"description": "<p> DESCRIÇÃO </p>",
+    	"description_position": 1,
+    	"manufacturer_index": 1,
+    	"meta_title": "meta nome teste",
+    	"meta_description": "meta DESCRIÇÃO",
+    	"image" : "https://static.dafiti.com.br/p/Yes-Basic-Sapato-Social-Masculino-Sport-Fino-Azul-Marinho-5799-55203201-1-zoom.jpg"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7172d8f630d947ed9d9be69d10a920f6
+authentication: {}
+metaSortKey: -1661179343939
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
