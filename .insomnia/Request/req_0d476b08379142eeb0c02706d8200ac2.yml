@@ -1,0 +1,89 @@
+_id: req_0d476b08379142eeb0c02706d8200ac2
+type: Request
+parentId: fld_c5e346b4e40c4edba49957a70029c763
+modified: 1661256620963
+created: 1661256592019
+url: http://localhost:8000/v2/coupon
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "agora vai 100",
+    	"code": "agoravai100",
+    	"type": "B",
+    	"product_id": 43,
+    	"product": "Bolo de cenoura 555",
+    	"logged": 1,
+    	"shipping": 1,
+    	"free_shipping_methods": [
+    		{
+    			"shipping_method": "azulCargoSJB"
+    		},
+    		{
+    			"shipping_method": "braspress_api"
+    		},
+    		{
+    			"shipping_method": "carriersapi"
+    		}
+    	],
+    	"uses_special_price": 1,
+    	"uses_price_coupon": 1,
+    	"uses_total": 1,
+    	"discount_disabled": 1,
+    	"discount": 10,
+    	"total": 300.00,
+    	"free_shipping": 0,
+    	"affiliate_id": 0,
+    	"affiliate_use_coupon_id": 3,
+    	"cpf_cnpj": "349.128.148-22",
+    	"force_coupon_cpf_cnpj": 1,
+    	"coupon_product": [
+    		{
+    			"product_id": 44
+    		},
+    		{
+    			"product_id": 25
+    		}
+    	],
+    	"coupon_category": [
+    		{
+    			"category_id": 21
+    		},
+    		{
+    			"category_id": 37
+    		}
+    	],
+    	"coupon_manufacturer": [
+    		{
+    			"manufacturer_id": 10
+    		},
+    		{
+    			"manufacturer_id": 13
+    		}
+    	],
+    	"date_start": "2019-09-12",
+    	"date_end": "2022-09-20",
+    	"uses_total": 10,
+    	"uses_customer": 2,
+    	"status": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c330c163e5a648fca33694b7ee6dbc03
+  - name: Cookie
+    value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
+    id: pair_2f36628a2f584378ba77de530f7b728e
+authentication: {}
+metaSortKey: -1661256592019
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

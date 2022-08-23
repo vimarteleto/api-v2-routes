@@ -1,0 +1,43 @@
+_id: req_c0054d62999d40b2b21203d1a160c439
+type: Request
+parentId: fld_3621c152b25545978412fc70a3614aea
+modified: 1661256892835
+created: 1661256818682
+url: http://localhost:8000/v2/bannerv1
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name_banner": "nome do banner",
+    	"link_banner": "https:\/\/treinamento.irroba.com.br\/course\/view.php?id=15",
+    	"link_image": "https://www.irroba.com.br/assets/img/irroba/banners/fbanner5.png",
+    	"date_start": "2022-07-01",
+    	"date_end": "2023-07-22",
+    	"image_mobile": "https://www.irroba.com.br/assets/img/irroba/banners/fbanner5.png",
+    	"target": "_blank",
+    	"position": "banner_full",
+    	"status": 1,
+    	"sort_order": 0,
+    	"date_added": "2022-07-22 12:57:03",
+    	"date_modified": "2022-07-28 10:47:20"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4c96d0162e684bb6823574f4cf52a993
+  - name: Cookie
+    value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
+    id: pair_98dcc604cc5842648f311458fb2bd429
+authentication: {}
+metaSortKey: -1661256876698
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

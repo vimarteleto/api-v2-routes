@@ -1,0 +1,94 @@
+_id: req_a2e9c008d16f4d538856d736d72e204a
+type: Request
+parentId: fld_c5e346b4e40c4edba49957a70029c763
+modified: 1661256761524
+created: 1661256755703
+url: http://localhost:8000/v2/coupon/26
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "agora vai 80",
+    	"code": "agoravai90",
+    	"type": "F",
+    	"logged": 0,
+    	"shipping": 0,
+    	"free_shipping_methods": [
+    		{
+    			"shipping_method": "azulCargoSJB"
+    		},
+    		{
+    			"shipping_method": "braspress_api"
+    		},
+    		{
+    			"shipping_method": "carriersapi"
+    		}
+    	],
+    	"uses_special_price": 0,
+    	"uses_price_coupon": 0,
+    	"uses_total": 0,
+    	"discount_disabled": 0,
+    	"discount": 20,
+    	"total": 100.00,
+    	"free_shipping": 1,
+    	"affiliate_id": 1,
+    	"affiliate_use_coupon_id": 1,
+    	"cpf_cnpj": "562.874.170-13",
+    	"force_coupon_cpf_cnpj": 0,
+    	"coupon_product": [
+    		{
+    			"product_id": 40
+    		},
+    		{
+    			"product_id": 50
+    		}
+    	],
+    	"coupon_category": [
+    		{
+    			"category_id": 20
+    		},
+    		{
+    			"category_id": 25
+    		}
+    	],
+    	"coupon_manufacturer": [
+    		{
+    			"manufacturer_id": 1022
+    		},
+    		{
+    			"manufacturer_id": 1023
+    		}
+    	],
+    	"date_start": "2019-09-12",
+    	"date_end": "2022-11-20",
+    	"uses_total": 10000,
+    	"uses_customer": 10000,
+    	"status": 1
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_33cb81efa2ac45b6a90c5699dc711095
+  - name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjNiNWE1NTdhZjk4MTRhNzhkMjgwZTRhYmI1YzE4N2Q5OWEyNWYxNGZjNjI0NDlkN2YyZWQ3NDIxMzU2YjBlYTBjMTdkMjdjYzg1MmM4OGQzIn0.eyJhdWQiOiIxIiwianRpIjoiM2I1YTU1N2FmOTgxNGE3OGQyODBlNGFiYjVjMTg3ZDk5YTI1ZjE0ZmM2MjQ0OWQ3ZjJlZDc0MjEzNTZiMGVhMGMxN2QyN2NjODUyYzg4ZDMiLCJpYXQiOjE1NTM2ODY4OTAsIm5iZiI6MTU1MzY4Njg5MCwiZXhwIjoxNTg1MzA5MjkwLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.D9XLLw7PnykpdTn1s9-oq6dkx1H-F2SSr6IebjJZW-COvs5p26VjHEmYpbI6R1BZP66y8VcUbEr8fUdOwZAS6lKYC7jqSgyAogYZJncSz13SepZyg4C3TjPOiiOM16Ne2x9km5s5S0d4kF43ibFHvQ9u4JMgbuOLB5gNowNqhYXCgtKCg8mmkppXRsuvnRb_FobNfNIFnjYwD12w85LJ0AbBAFtDwneUmfOaGLsVpJBySMYYKMxEltvxCnYeF29Apyc8IaNSEWQj9ObpDuVvixSUXhaSmZoS-hFF-PWShqjhk9w9xt3JR3Vfl3UXSDuJkL7BiHMyLNyZowTcUnP3pqLjfGAdpkhVVVKSw52Dri607rosBES2h1Ykxfic3BVkQ_GeT7XlU5f-oRDtpXaYHciwkCuLGhuatiUYAYVQPmDPHvy5lX1MnP5xOuKQjupazyJ4UGkIfL52cZ-i6BEAa4pOJYk73E8ENACe2_xtF_xFMCAw7eN0dr_yi7JCCrDEz-lIRhszP6SYhpaU-8UlPU88_HA9CY0UJnta7l6stvztIK4yX-wb0fcoeTFOa5PcPW4CWda8q-BObGeHp8AoOaa_BwZ8XAToPntSxiyTHekX35JVlyaPOCLqIN0ITBMso-jD2r-oruxHsF1BKgqEcxmnNL3iIPc0Ns2-UlE5gXE
+    id: pair_e36e9b60c36a400dac01b284a8590cdb
+  - name: Content-Type
+    value: application/json
+    id: pair_040972a3ed704bfc985e2bb3a55b6f09
+  - name: Cookie
+    value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
+    id: pair_35b80881464948b8a19b1cb531a7f11d
+authentication: {}
+metaSortKey: -1660853288105.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

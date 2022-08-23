@@ -1,0 +1,35 @@
+_id: req_381eb8a53238491bb9035a7fc5642302
+type: Request
+parentId: fld_3621c152b25545978412fc70a3614aea
+modified: 1661256874000
+created: 1661256865981
+url: http://localhost:8000/v2/bannerv1
+name: get
+description: ""
+method: GET
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+    id: pair_11660d5e543c470c89b0b8229bf50fa8
+  - name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjNiNWE1NTdhZjk4MTRhNzhkMjgwZTRhYmI1YzE4N2Q5OWEyNWYxNGZjNjI0NDlkN2YyZWQ3NDIxMzU2YjBlYTBjMTdkMjdjYzg1MmM4OGQzIn0.eyJhdWQiOiIxIiwianRpIjoiM2I1YTU1N2FmOTgxNGE3OGQyODBlNGFiYjVjMTg3ZDk5YTI1ZjE0ZmM2MjQ0OWQ3ZjJlZDc0MjEzNTZiMGVhMGMxN2QyN2NjODUyYzg4ZDMiLCJpYXQiOjE1NTM2ODY4OTAsIm5iZiI6MTU1MzY4Njg5MCwiZXhwIjoxNTg1MzA5MjkwLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.D9XLLw7PnykpdTn1s9-oq6dkx1H-F2SSr6IebjJZW-COvs5p26VjHEmYpbI6R1BZP66y8VcUbEr8fUdOwZAS6lKYC7jqSgyAogYZJncSz13SepZyg4C3TjPOiiOM16Ne2x9km5s5S0d4kF43ibFHvQ9u4JMgbuOLB5gNowNqhYXCgtKCg8mmkppXRsuvnRb_FobNfNIFnjYwD12w85LJ0AbBAFtDwneUmfOaGLsVpJBySMYYKMxEltvxCnYeF29Apyc8IaNSEWQj9ObpDuVvixSUXhaSmZoS-hFF-PWShqjhk9w9xt3JR3Vfl3UXSDuJkL7BiHMyLNyZowTcUnP3pqLjfGAdpkhVVVKSw52Dri607rosBES2h1Ykxfic3BVkQ_GeT7XlU5f-oRDtpXaYHciwkCuLGhuatiUYAYVQPmDPHvy5lX1MnP5xOuKQjupazyJ4UGkIfL52cZ-i6BEAa4pOJYk73E8ENACe2_xtF_xFMCAw7eN0dr_yi7JCCrDEz-lIRhszP6SYhpaU-8UlPU88_HA9CY0UJnta7l6stvztIK4yX-wb0fcoeTFOa5PcPW4CWda8q-BObGeHp8AoOaa_BwZ8XAToPntSxiyTHekX35JVlyaPOCLqIN0ITBMso-jD2r-oruxHsF1BKgqEcxmnNL3iIPc0Ns2-UlE5gXE
+    id: pair_bc818120ef214e5d89b607b5c22b476e
+  - name: Content-Type
+    value: application/json
+    id: pair_1d4fa5d3ce304d4bb02a80d32ea9237e
+  - name: Cookie
+    value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
+    id: pair_4264cdcb9e0f4a73b349b6393d7734a2
+authentication: {}
+metaSortKey: -1661256865981
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

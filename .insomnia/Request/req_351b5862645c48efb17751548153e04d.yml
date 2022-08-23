@@ -1,0 +1,31 @@
+_id: req_351b5862645c48efb17751548153e04d
+type: Request
+parentId: fld_3621c152b25545978412fc70a3614aea
+modified: 1661256938087
+created: 1661256928483
+url: http://localhost:8000/v2/bannerv1/5
+name: delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjNiNWE1NTdhZjk4MTRhNzhkMjgwZTRhYmI1YzE4N2Q5OWEyNWYxNGZjNjI0NDlkN2YyZWQ3NDIxMzU2YjBlYTBjMTdkMjdjYzg1MmM4OGQzIn0.eyJhdWQiOiIxIiwianRpIjoiM2I1YTU1N2FmOTgxNGE3OGQyODBlNGFiYjVjMTg3ZDk5YTI1ZjE0ZmM2MjQ0OWQ3ZjJlZDc0MjEzNTZiMGVhMGMxN2QyN2NjODUyYzg4ZDMiLCJpYXQiOjE1NTM2ODY4OTAsIm5iZiI6MTU1MzY4Njg5MCwiZXhwIjoxNTg1MzA5MjkwLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.D9XLLw7PnykpdTn1s9-oq6dkx1H-F2SSr6IebjJZW-COvs5p26VjHEmYpbI6R1BZP66y8VcUbEr8fUdOwZAS6lKYC7jqSgyAogYZJncSz13SepZyg4C3TjPOiiOM16Ne2x9km5s5S0d4kF43ibFHvQ9u4JMgbuOLB5gNowNqhYXCgtKCg8mmkppXRsuvnRb_FobNfNIFnjYwD12w85LJ0AbBAFtDwneUmfOaGLsVpJBySMYYKMxEltvxCnYeF29Apyc8IaNSEWQj9ObpDuVvixSUXhaSmZoS-hFF-PWShqjhk9w9xt3JR3Vfl3UXSDuJkL7BiHMyLNyZowTcUnP3pqLjfGAdpkhVVVKSw52Dri607rosBES2h1Ykxfic3BVkQ_GeT7XlU5f-oRDtpXaYHciwkCuLGhuatiUYAYVQPmDPHvy5lX1MnP5xOuKQjupazyJ4UGkIfL52cZ-i6BEAa4pOJYk73E8ENACe2_xtF_xFMCAw7eN0dr_yi7JCCrDEz-lIRhszP6SYhpaU-8UlPU88_HA9CY0UJnta7l6stvztIK4yX-wb0fcoeTFOa5PcPW4CWda8q-BObGeHp8AoOaa_BwZ8XAToPntSxiyTHekX35JVlyaPOCLqIN0ITBMso-jD2r-oruxHsF1BKgqEcxmnNL3iIPc0Ns2-UlE5gXE
+  - name: Content-Type
+    value: application/json
+  - name: Cookie
+    value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
+authentication: {}
+metaSortKey: -1661256660509.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
