@@ -1,7 +1,7 @@
 _id: req_aee8728c4b7e4e1cbd076a97535adc30
 type: Request
 parentId: fld_2a89403c2f4a4cdd867441c88fdb0819
-modified: 1661257010975
+modified: 1661274915191
 created: 1661256979915
 url: http://localhost:8000/v2/bannerv2
 name: create
@@ -19,9 +19,9 @@ body:
     		"show_desktop": 1,
     		"show_mobile": 1,
     		"status": 1,
-    		"banner_width": 0,
-    		"banner_height": 0,
-    		"banner_ratio": 0,
+    		"banner_width": 300,
+    		"banner_height": 300,
+    		"banner_ratio": 300,
     		"date_start": "01-08-2022 13:47:14",
     		"date_end": "31-08-2022 13:47:17",
     		"banner_type": "custom_grid",
@@ -39,8 +39,8 @@ body:
     				"animation_offset": 200,
     				"width_percent": 25,
     				"height_percent": 100,
-    				"x_percent": 0,
-    				"y_percent": 0
+    				"x_percent": 300,
+    				"y_percent": 300
     			},
     			{
     				"image": "https://i.pinimg.com/originals/47/58/de/4758defb01c46a145d7ab515dda8634b.jpg",
@@ -96,10 +96,7 @@ body:
     				"sort_order": 0
     			}
     		]
-    	},
-    	"date_added": null,
-    	"date_modified": null,
-    	"user_log": null
+    	}
     }
 parameters: []
 headers:
