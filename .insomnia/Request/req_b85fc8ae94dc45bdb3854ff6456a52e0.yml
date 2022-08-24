@@ -1,0 +1,29 @@
+_id: req_b85fc8ae94dc45bdb3854ff6456a52e0
+type: Request
+parentId: fld_c41fb9ace8c443beb63976c7bd33a748
+modified: 1661340179021
+created: 1661259478932
+url: http://localhost:8000/v2/campaign
+name: get
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"filter_category": "Alianças em ouro 18k"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d6ac6604ee334b0ea25df37265624a98
+authentication: {}
+metaSortKey: -1661259478932
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
