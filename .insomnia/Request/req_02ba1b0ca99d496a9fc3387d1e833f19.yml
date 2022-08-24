@@ -1,10 +1,10 @@
 _id: req_02ba1b0ca99d496a9fc3387d1e833f19
 type: Request
 parentId: fld_87fa8e243f584bcc80de543d8faddd64
-modified: 1661264743468
+modified: 1661340731995
 created: 1661264735974
 url: http://localhost:8000/v2/filter/1
-name: New Request
+name: delete
 description: ""
 method: DELETE
 body: {}
