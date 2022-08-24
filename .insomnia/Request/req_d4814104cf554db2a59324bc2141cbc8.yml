@@ -1,39 +1,39 @@
-_id: req_85714a2af91f41c88f0b17093126ed93
+_id: req_d4814104cf554db2a59324bc2141cbc8
 type: Request
-parentId: fld_c3e5b358ee8f4160bc84af4eb5919f9d
-modified: 1661357581600
-created: 1661345394980
-url: http://localhost:8000/v2/carousel/module/178
-name: updateModule
+parentId: fld_a2268d20b1dd4969836ba5cdb94418b5
+modified: 1661357330146
+created: 1661357330146
+url: http://localhost:8000/v2/carousel/5
+name: update
 description: ""
 method: PUT
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"name": "patinhos 3",
-    	"code": "carousel",
-    	"show_module": 0,
-    	"setting": {
-    		"name": "patinhos 2",
-    		"status": 1,
-    		"show_module": 0,
-    		"carousel_id": 6,
-    		"limit_id": 4,
-    		"height": 200,
-    		"width": 200,
-    		"pagination": 1,
-    		"layout_module": [
-    			{
-    				"layout_module_id": 1461,
-    				"layout_id": 1,
-    				"code": "carousel.172",
-    				"position": "content_top",
-    				"sort_order": 0,
-    				"category_id": 0
-    			}
-    		]
-    	}
+    	"name": "e o dodos",
+    	"status": 1,
+    	"type": 1,
+    	"images": [
+    		{
+    			"title": "pato 1",
+    			"link": "http://localhost:8000/bolos",
+    			"image": "https://www.mundoecologia.com.br/wp-content/uploads/2020/03/Filhote-de-Pato-Amarelo.jpg",
+    			"sort_order": 0
+    		},
+    		{
+    			"title": "pato 2",
+    			"link": "http://localhost:8000/maispedidos",
+    			"image": "https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/03/20/150320005004_pato_pao_thinkstock_624x351_thinkstock.jpg",
+    			"sort_order": 1
+    		},
+    		{
+    			"title": "pato 3",
+    			"link": "http://localhost:8000/outlet",
+    			"image": "https://t2.uc.ltmcdn.com/pt/posts/3/7/6/o_que_significa_pagar_o_pato_23673_600.jpg",
+    			"sort_order": 2
+    		}
+    	]
     }
 parameters: []
 headers:
@@ -51,7 +51,7 @@ headers:
     value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
     id: pair_aec7d96b727640e2a28da3a944446d13
 authentication: {}
-metaSortKey: -1661256951301.75
+metaSortKey: -1661256906529.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
