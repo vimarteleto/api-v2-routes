@@ -1,7 +1,7 @@
 _id: req_9b96ec606a104715929417e334d4c409
 type: Request
 parentId: fld_c3e5b358ee8f4160bc84af4eb5919f9d
-modified: 1661340475117
+modified: 1661342634764
 created: 1661276168618
 url: http://localhost:8000/v2/carousel/5
 name: update
@@ -12,26 +12,26 @@ body:
   text: >-
     {
     	"name": "e o dodos",
-    	"status": "1",
-    	"type": "1",
+    	"status": 1,
+    	"type": 1,
     	"images": [
     		{
     			"title": "pato 1",
     			"link": "http://localhost:8000/bolos",
     			"image": "https://www.mundoecologia.com.br/wp-content/uploads/2020/03/Filhote-de-Pato-Amarelo.jpg",
-    			"sort_order": "0"
+    			"sort_order": 0
     		},
     		{
     			"title": "pato 2",
     			"link": "http://localhost:8000/maispedidos",
     			"image": "https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/03/20/150320005004_pato_pao_thinkstock_624x351_thinkstock.jpg",
-    			"sort_order": "1"
+    			"sort_order": 1
     		},
     		{
     			"title": "pato 3",
     			"link": "http://localhost:8000/outlet",
     			"image": "https://t2.uc.ltmcdn.com/pt/posts/3/7/6/o_que_significa_pagar_o_pato_23673_600.jpg",
-    			"sort_order": "2"
+    			"sort_order": 2
     		}
     	]
     }
