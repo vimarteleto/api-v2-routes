@@ -1,0 +1,54 @@
+_id: req_61f28b3d568741e3be242d8f82a9c8a3
+type: Request
+parentId: fld_c3e5b358ee8f4160bc84af4eb5919f9d
+modified: 1661340164208
+created: 1661276168610
+url: http://localhost:8000/v2/carousel
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "e o waws",
+    	"status": "1",
+    	"type": "1",
+    	"images": [
+    		{
+    			"title": "pato 1",
+    			"link": "http://localhost:8000/bolos",
+    			"image": "https://www.mundoecologia.com.br/wp-content/uploads/2020/03/Filhote-de-Pato-Amarelo.jpg",
+    			"sort_order": "0"
+    		},
+    		{
+    			"title": "pato 2",
+    			"link": "http://localhost:8000/maispedidos",
+    			"image": "https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/03/20/150320005004_pato_pao_thinkstock_624x351_thinkstock.jpg",
+    			"sort_order": "1"
+    		},
+    		{
+    			"title": "pato 3",
+    			"link": "http://localhost:8000/outlet",
+    			"image": "https://t2.uc.ltmcdn.com/pt/posts/3/7/6/o_que_significa_pagar_o_pato_23673_600.jpg",
+    			"sort_order": "2"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_485b5a7dad484d9fbb21457cf338e004
+  - name: Cookie
+    value: PHPSESSID=o57n5ahgag7kuj927pd6g01vt6
+    id: pair_487be1dc30be48beb5f6d3bdda25c893
+authentication: {}
+metaSortKey: -1661256996074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
