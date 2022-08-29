@@ -1,7 +1,7 @@
 _id: req_956a116173fd43649156a5f64b73c475
 type: Request
 parentId: fld_a2268d20b1dd4969836ba5cdb94418b5
-modified: 1661791244363
+modified: 1661799353595
 created: 1661357330141
 url: http://localhost:8000/v2/order
 name: create
@@ -21,32 +21,32 @@ body:
     	"cellphone": "(16)993118372",
     	"shipping_address_id": 44,
     	"payment_address_id": 44,
-    	"payment_method": "Pedido Interno",
+    	"payment_method": "Pix",
     	"shipping_method": "PAC",
     	"comment": "Pedido de teste pela API",
     	"total": 71.53,
     	"products": [
     		{
-    			"product_id": 28,
-    			"model": "111",
+    			"product_id": 115,
+    			"model": "392",
     			"option": [
     				{
-    					"product_option_value_id": 89
+    					"product_option_value_id": 285
     				}
     			],
-    			"name": "Bola de borracha",
+    			"name": "Boia Pão JR Pesca Isopor Média com Anzol - Branca",
     			"price": 10.00,
     			"quantity": 5
     		},
     		{
-    			"product_id": 100,
-    			"model": "777",
+    			"product_id": 116,
+    			"model": "162",
     			"option": [
     				{
-    					"product_option_value_id": 242
+    					"product_option_value_id": 287
     				}
     			],
-    			"name": "Bolo de Morango",
+    			"name": "Boia Cevadeira Maceta Rosa com Amortecedor - 70 gramas",
     			"price": 50.00,
     			"quantity": 2
     		}
