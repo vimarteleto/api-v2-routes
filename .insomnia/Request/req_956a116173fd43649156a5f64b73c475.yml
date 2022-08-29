@@ -1,7 +1,7 @@
 _id: req_956a116173fd43649156a5f64b73c475
 type: Request
 parentId: fld_a2268d20b1dd4969836ba5cdb94418b5
-modified: 1661369753833
+modified: 1661771332926
 created: 1661357330141
 url: http://localhost:8000/v2/order
 name: create
@@ -9,123 +9,48 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: >-
+  text: |-
     {
-    	"invoice_prefix": "INV",
-    	"order_status_id": 17,
-    	"store_id": "",
-    	"store_name": "Atendimento Irroba Store",
-    	"customer_id": "2",
-    	"customer_group_id": "8",
-    	"firstname": "Marcelo Gouveia",
-    	"lastname": "",
-    	"cnpj_contact": "",
-    	"email": "leosouzamiranda@outlook.com",
-    	"telephone": "",
-    	"cellphone": "(16)99999-9999",
-    	"mobile_operator": "",
-    	"sex": "M",
-    	"birthday": "1990-09-10",
+    	"customer_id": 41,
     	"type_person": "F",
-    	"cpf_cnpj": "424.548.840-97",
-    	"rg_ie": "",
-    	"final_customer": "",
-    	"store_url": "http://localhost:8000/",
-    	"use_ship": "1",
-    	"payment_firstname": "Marcelo Gouveia",
-    	"payment_lastname": "",
-    	"payment_address_1": "Rua Aniz Nassif",
-    	"payment_number_home": "1000",
-    	"payment_neighborhood": "Jardim Barão",
-    	"payment_address_2": "casa",
-    	"payment_city": "Franca",
-    	"payment_postcode": "14409009",
-    	"payment_zone_id": "464",
-    	"payment_country_id": "30",
-    	"payment_zone": "Sao Paulo",
-    	"payment_country": "Brasil",
-    	"payment_address_format": "",
-    	"payment_method": "Pix",
-    	"payment_code": "tworpay_pix",
-    	"jadlog_pickup_id": "",
-    	"jadlog_pickup_cnpj_cpf": "",
-    	"shipping_firstname": "Marcelo Gouveia",
-    	"shipping_lastname": "",
-    	"shipping_address_1": "Rua Aniz Nassif",
-    	"shipping_number_home": "1000",
-    	"shipping_neighborhood": "Jardim Barão",
-    	"shipping_address_2": "casa",
-    	"shipping_city": "Franca",
-    	"shipping_postcode": "14409009",
-    	"shipping_zone_id": "464",
-    	"shipping_country_id": "30",
-    	"shipping_custom_field": [],
-    	"shipping_zone": "Sao Paulo",
-    	"shipping_country": "Brasil",
-    	"shipping_address_format": "",
+    	"firstname": "Teste API",
+    	"email": "api1234pedido@irroba.com.br",
+    	"cpf_cnpj": "020.033.160-43",
+    	"birthday": "1995-09-04",
+    	"sex": "M",
+    	"cellphone": "(16)993118372",
+    	"shipping_address_id": 44,
+    	"payment_address_id": 44,
+    	"payment_method": "Pedido Interno",
     	"shipping_method": "PAC",
-    	"shipping_freight": "pac.pac",
-    	"shipping_cost": 21.53,
-    	"shipping_delivery_time": 5,
-    	"shipping_code": "pac.pac",
-    	"shipping_actual_cost": 21.53,
-    	"smart_envios_service": "",
-    	"kangu_shipping_cnpj": "",
-    	"kangu_service_type": "",
-    	"data_frete_id_table": "",
-    	"data_frete_cotacao_id": "",
-    	"shipping_location": "",
-    	"intelipost_delivery_id": "",
-    	"quote_id": "",
-    	"date_shipping_appoitment": "",
-    	"hour_shipping_appoitment": "",
-    	"send_order_matrix": false,
-    	"order_additional_time": "",
-    	"shop_streaming_seller": "",
+    	"comment": "Pedido de teste pela API",
+    	"total": 10.0,
     	"products": [
     		{
-    			"product_id": "28",
-    			"name": "Bolo de Chocolate",
+    			"product_id": 28,
     			"model": "111",
-    			"outfit_id": "",
-    			"option": 
-    			[
+    			"option": [
     				{
-    					"product_option_id": 135,
-    					"product_option_value_id": "89",
-    					"option_id": "29",
-    					"option_value_id": "255",
-    					"name": "Único",
-    					"value": "Único",
-    					"type": "select",
-    					"stock_type": "warn_me",
-    					"quantity": "999",
-    					"package": "0"
+    					"product_option_value_id": 89
     				}
     			],
-    			"present": "",
-    			"download": [],
-    			"quantity": 1,
-    			"subtract": 1,
-    			"price": 50,
-    			"price_attacked": 45,
-    			"total": 50,
-    			"total_attacked": 45,
-    			"catalog_cost_price": 0,
-    			"total_catalog_cost_price": 0,
-    			"booking_schedule_start": "",
-    			"booking_schedule_end": "",
-    			"reward": 50,
-    			"integration": "0",
-    			"upload_code": "",
-    			"seller_id": "0",
-    			"weight": 1,
-    			"length": "0.0000",
-    			"width": "0.0000",
-    			"height": "0.0000"
+    			"name": "Bola de borracha",
+    			"price": 10.00,
+    			"quantity": 5
+    		},
+    		{
+    			"product_id": 100,
+    			"model": "777",
+    			"option": [
+    				{
+    					"product_option_value_id": 242
+    				}
+    			],
+    			"name": "Bolo de Morango",
+    			"price": 50.00,
+    			"quantity": 2
     		}
     	],
-    	"vouchers": [],
     	"totals": [
     		{
     			"code": "sub_total",
@@ -137,36 +62,16 @@ body:
     			"code": "shipping",
     			"title": "PAC",
     			"value": 21.53,
-    			"sort_order": "3",
-    			"cost": 21.53
+    			"cost": 21.53,
+    			"sort_order": 3
     		},
     		{
     			"code": "total",
     			"title": "Total",
     			"value": 71.53,
-    			"sort_order": "9"
+    			"sort_order": 9
     		}
-    	],
-    	"comment": "",
-    	"purchase_order_field": "",
-    	"total": 71.53,
-    	"affiliate_id": "",
-    	"commission": "",
-    	"marketing_id": "",
-    	"tracking": "",
-    	"commission_parent": "",
-    	"affiliate_parent_id": "",
-    	"language_id": "2",
-    	"currency_id": 4,
-    	"currency_code": "BRL",
-    	"currency_value": 1,
-    	"ip": "172.18.0.1",
-    	"forwarded_ip": "",
-    	"user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36",
-    	"accept_language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-    	"pdv": "",
-    	"gift_id": "",
-    	"gift": false
+    	]
     }
 parameters: []
 headers:
