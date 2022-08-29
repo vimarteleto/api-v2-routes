@@ -1,7 +1,7 @@
 _id: req_956a116173fd43649156a5f64b73c475
 type: Request
 parentId: fld_a2268d20b1dd4969836ba5cdb94418b5
-modified: 1661771332926
+modified: 1661791244363
 created: 1661357330141
 url: http://localhost:8000/v2/order
 name: create
@@ -24,7 +24,7 @@ body:
     	"payment_method": "Pedido Interno",
     	"shipping_method": "PAC",
     	"comment": "Pedido de teste pela API",
-    	"total": 10.0,
+    	"total": 71.53,
     	"products": [
     		{
     			"product_id": 28,
@@ -55,8 +55,8 @@ body:
     		{
     			"code": "sub_total",
     			"title": "Sub-Total",
-    			"value": 50,
-    			"sort_order": "1"
+    			"value": 50.00,
+    			"sort_order": 1
     		},
     		{
     			"code": "shipping",
