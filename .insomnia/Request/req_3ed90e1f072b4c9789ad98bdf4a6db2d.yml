@@ -1,0 +1,31 @@
+_id: req_3ed90e1f072b4c9789ad98bdf4a6db2d
+type: Request
+parentId: fld_1c31c975a18a43489cfa0a629f76f4f6
+modified: 1665426419314
+created: 1665147076057
+url: http://localhost:8000/v2/layout
+name: getByRoute
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"irroba_route" : "product/product",
+    	"position" : "content_bottom",
+    	"product_id" : 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c8de8f6e8362438c978d569017f6e0ee
+authentication: {}
+metaSortKey: -1665147076057
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
