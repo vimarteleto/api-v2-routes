@@ -1,0 +1,28 @@
+_id: req_a50acc988c654f558805d98e0cddfe18
+type: Request
+parentId: fld_e41bde0b297748178b782628a451df05
+modified: 1665496626339
+created: 1665495342050
+url: http://localhost:8000/v2/product/name
+name: getByName
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"filter_name" : "coturno"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1661256996049
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
