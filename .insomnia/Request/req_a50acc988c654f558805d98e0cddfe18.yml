@@ -1,7 +1,7 @@
 _id: req_a50acc988c654f558805d98e0cddfe18
 type: Request
 parentId: fld_e41bde0b297748178b782628a451df05
-modified: 1665496626339
+modified: 1665496702383
 created: 1665495342050
 url: http://localhost:8000/v2/product/name
 name: getByName

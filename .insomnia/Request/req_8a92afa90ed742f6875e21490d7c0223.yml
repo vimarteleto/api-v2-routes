@@ -1,15 +1,15 @@
 _id: req_8a92afa90ed742f6875e21490d7c0223
 type: Request
 parentId: fld_ae134657f19342749086c0f476dab3b2
-modified: 1661264831863
+modified: 1665668853339
 created: 1660915997711
-url: http://localhost:8000/v2/cart
+url: http://localhost:8000/v2/catalog/cart
 name: create
 description: ""
 method: POST
 body:
   mimeType: application/json
-  text: =
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
