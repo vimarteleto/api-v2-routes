@@ -1,9 +1,9 @@
 _id: req_f4e30c1e0cd440e38f943374b1eb27c5
 type: Request
 parentId: fld_c37239aee843494cb62e077f922dae3e
-modified: 1665666845178
+modified: 1665683684690
 created: 1665513666646
-url: http://localhost:8000/v2/session/regenerate
+url: http://localhost:8000/v2/catalog/session/regenerate
 name: regenerate
 description: ""
 method: POST

@@ -1,9 +1,9 @@
 _id: req_c19d1e6cded9482abe847ac6c3a2ccc1
 type: Request
 parentId: fld_ae134657f19342749086c0f476dab3b2
-modified: 1665680260165
+modified: 1665687144064
 created: 1660915997726
-url: http://localhost:8000/v2/cart/s413164q2n76re633r0qoeelf9
+url: http://localhost:8000/v2/catalog/cart/jfhtmk4a86cq8hn43p125fellr
 name: update
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: >-
     {
-    	"key": "YToyOntzOjEwOiJwcm9kdWN0X2lkIjtpOjIzO3M6Njoib3B0aW9uIjthOjE6e2k6NTA7aTo5Njt9fQ==",
+    	"key": "YToyOntzOjEwOiJwcm9kdWN0X2lkIjtpOjU1NjtzOjY6Im9wdGlvbiI7YToxOntpOjc2MjtpOjYwODQ7fX0==",
     	"quantity": 2
     }
 parameters: []

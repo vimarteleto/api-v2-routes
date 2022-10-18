@@ -1,0 +1,28 @@
+_id: req_9ed64a71737e4d9e8acaeaef14624074
+type: Request
+parentId: fld_3e13fec3a943478c8ef98d516be0e989
+modified: 1666123122019
+created: 1666118850273
+url: http://localhost:8000/v2/catalog/setting
+name: getByKey
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"key": "is_mongo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1666118850273
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

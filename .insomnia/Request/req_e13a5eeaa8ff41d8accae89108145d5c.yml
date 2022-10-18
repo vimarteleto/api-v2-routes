@@ -1,9 +1,9 @@
 _id: req_e13a5eeaa8ff41d8accae89108145d5c
 type: Request
 parentId: fld_ae134657f19342749086c0f476dab3b2
-modified: 1665682296449
+modified: 1665688014165
 created: 1660915997715
-url: http://localhost:8000/v2/catalog/cart/s413164q2n76re633r0qoeelf9
+url: http://localhost:8000/v2/catalog/cart/f9o8lcolblu243hc63md15ir1e
 name: putObjectsOnCart
 description: ""
 method: POST

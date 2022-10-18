@@ -1,9 +1,9 @@
 _id: req_6060d2162fe348c984bacb2358dbe19d
 type: Request
 parentId: fld_ae134657f19342749086c0f476dab3b2
-modified: 1665668900499
+modified: 1666118849040
 created: 1660915997721
-url: http://localhost:8000/v2/catalog/cart/s413164q2n76re633r0qoeelf9
+url: http://localhost:8000/v2/catalog/cart/f9o8lcolblu243hc63md15ir1e
 name: getById
 description: ""
 method: GET
